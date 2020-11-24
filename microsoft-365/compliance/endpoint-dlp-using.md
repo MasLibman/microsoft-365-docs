@@ -77,6 +77,14 @@ You add browsers, identified by their executable names, that will be blocked fro
 [!IMPORTANT]
 Do not include the path to the executable, but only the executable name (i.e., browser.exe).
 
+### Always Audit File Activity
+
+This option allows you to control whether DLP activity for Office, PDF, and CSV files is automatically audited and available for review in the audit telemetry and the Activity Explorer from onboarded devices. 
+
+- When this is turned On (the default), file activity is always audited for onboarded devices, regardless of whether or not they are included in an active DLP policy.
+- When this is turned Off, file activity is audited for onboarded devices only when they are included in an active DLP policy. 
+
+
 ## Tying DLP settings together
 
 With Endpoint DLP and Edge Chromium Web browser, you can restrict unintentional sharing of sensitive items to unallowed cloud apps and services. Edge Chromium understands when an item is restricted by an Endpoint DLP policy and enforces access restrictions.
